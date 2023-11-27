@@ -27,7 +27,7 @@ const HeroContent = () => {
             </motion.div>
             <motion.div
                 variants={slideInFromLeft(1)}
-                className='absolute top-[75%] left-[34%] cursor-pointer'>
+                className='absolute top-[75%] left-[34%] z-50 cursor-pointer'>
                 <Button />
             </motion.div>
         </motion.div>

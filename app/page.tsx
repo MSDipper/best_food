@@ -7,7 +7,7 @@ import Location from '@/components/main/Location';
 export default function Home() {
   return (
     <main>
-      <div >
+      <div>
         <Hero />
         <Restaurant />
         <Reservation />

@@ -3,7 +3,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { slideInFromTop } from '@/utils/motion';
 
-const Navber = () => {
+const Navbar = () => {
     return (
         <motion.div
             initial='hidden'
@@ -117,4 +117,4 @@ const Navber = () => {
     )
 }
 
-export default Navber
+export default Navbar

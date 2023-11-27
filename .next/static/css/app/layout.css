@@ -555,6 +555,9 @@ html {
 .z-\[20\]{
   z-index: 20;
 }
+.z-50{
+  z-index: 50;
+}
 .col-\[3_\/_1\]{
   grid-column: 3 / 1;
 }
