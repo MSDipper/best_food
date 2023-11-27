@@ -27,8 +27,8 @@ const Menu = () => {
                         variants={slideInFromLeft(0.8)}
                     >
                         <div className='flex xs:items-center justify-center md:justify-normal sm:items-normal xs:flex-col sm:flex-row gap-x-5'>
-                            <div className='pt-10'>
-                                <img className='w-[121px] h-[142px]' src="/menu/1.webp" alt="menu-img" loading="lazy" />
+                            <div>
+                                <img className='pt-10 w-[121px] h-[142px]' src="/menu/1.webp" alt="menu-img" loading="lazy" />
                             </div>
                             <div className='max-w-[600px] pt-4'>
                                 <h3 className='relative max-w-[325px] xs:m-auto sm:m-0 flex justify-between reem text-xl leading-9 pb-3 uppercase'>
