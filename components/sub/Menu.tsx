@@ -25,12 +25,12 @@ const Menu = () => {
                     <motion.div
                     variants={slideInFromLeft(0.8)}
                     >
-                        <div className='flex gap-x-5'>
-                            <div>
-                                <img src="/menu/1.png" alt="menu-img" />
+                        <div className='flex xs:items-center justify-center md:justify-normal sm:items-normal xs:flex-col sm:flex-row gap-x-5'>
+                            <div className='pt-10'>
+                                <img src="/menu/1.png w-[121px] h-[142px]" alt="menu-img" />
                             </div>
                             <div className='max-w-[600px] pt-4'>
-                                <h3 className='relative max-w-[325px] flex justify-between reem text-xl leading-9 pb-3 uppercase'>
+                                <h3 className='relative max-w-[325px] xs:m-auto sm:m-0 flex justify-between reem text-xl leading-9 pb-3 uppercase'>
                                     Sandwich
                                     <span className='border border-black inline-block absolute top-[24px] left-[120px] w-32 border-b-[0.8px] border-dashed'></span>
                                     <span className='pl-[122px]'> Rs 500</span>
@@ -41,12 +41,12 @@ const Menu = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className='flex gap-x-5'>
+                        <div className='flex xs:items-center justify-center md:justify-normal sm:items-normal xs:flex-col sm:flex-row gap-x-5'>
                             <div>
-                                <img src="/menu/2.png" alt="menu-img" />
+                                <img className='pt-10 w-[121px] h-[142px]' src="/menu/2.png" alt="menu-img" />
                             </div>
                             <div className='max-w-[600px] pt-4'>
-                                <h3 className='relative max-w-[325px] flex justify-between gap-x-1 reem text-xl leading-9 pb-3 uppercase'>
+                                <h3 className='relative max-w-[325px] xs:m-auto sm:m-0 flex justify-between gap-x-1 reem text-xl leading-9 pb-3 uppercase'>
                                 Burgers
                                     <span className='border border-black inline-block absolute top-[24px] left-[110px] w-32 border-b-[1px] border-dashed'></span>
                                     <span className='pl-[122px]'> Rs 800</span>
@@ -61,12 +61,12 @@ const Menu = () => {
                     <motion.div
                     variants={slideInFromRight(0.8)}
                     >
-                        <div className='flex gap-x-5'>
+                        <div className='flex xs:items-center justify-center md:justify-normal sm:items-normal xs:flex-col sm:flex-row gap-x-5'>
                             <div>
-                                <img src="/menu/3.png" alt="menu-img" />
+                                <img className='pt-10 w-[121px] h-[142px]' src="/menu/3.png" alt="menu-img" />
                             </div>
                             <div className='max-w-[600px] pt-4'>
-                                <h3 className='relative max-w-[325px] flex justify-between reem text-xl leading-9 pb-3 uppercase'>
+                                <h3 className='relative max-w-[325px] xs:m-auto sm:m-0 flex justify-between reem text-xl leading-9 pb-3 uppercase'>
                                 Pancakes
                                 <span className='border border-black inline-block absolute top-[24px] left-[120px] w-32 border-b-[1px] border-dashed'></span>
                                     <span className='pl-[122px]'> Rs 600</span>
@@ -77,12 +77,12 @@ const Menu = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className='flex gap-x-5'>
+                        <div className='flex xs:items-center justify-center md:justify-normal sm:items-normal xs:flex-col sm:flex-row gap-x-5'>
                             <div>
-                                <img src="/menu/4.png" alt="menu-img" />
+                                <img className='pt-10 w-[121px] h-[142px]' src="/menu/4.png" alt="menu-img" />
                             </div>
                             <div className='max-w-[600px] pt-4'>
-                                <h3 className='relative max-w-[325px] flex justify-between reem text-xl leading-9 pb-3 uppercase'>
+                                <h3 className='relative max-w-[325px] xs:m-auto sm:m-0 flex justify-between reem text-xl leading-9 pb-3 uppercase'>
                                 Desserts
                                 <span className='border border-black inline-block absolute top-[24px] left-[120px] w-32 border-b-[1px] border-dashed'></span>
                                     <span className='pl-[122px]'> Rs 700</span>

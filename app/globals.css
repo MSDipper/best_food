@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Reem+Kufi&family=Sansita+Swashed&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Reem+Kufi&family=Sansita+Swashed&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 
 @layer base {
   html {
@@ -16,4 +15,20 @@
 
 .reem {
   font-family: "Reem Kufi", sans-serif;
+}
+
+.menu_btn {
+  @apply m-auto h-1 w-9 rounded bg-white transition duration-300;
+}
+
+@layer components {
+  .burger div:nth-child(1) {
+    @apply rotate-45 translate-y-1.5;
+  }
+  .burger div:nth-child(2) {
+    @apply hidden;
+  }
+  .burger div:nth-child(3) {
+    @apply -rotate-45 -translate-y-1.5;
+  }
 }

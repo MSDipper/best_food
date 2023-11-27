@@ -24,7 +24,7 @@ const Reservation = () => {
                 </div>
                 <ReservationForm />
                 <motion.div
-                    className='flex justify-center pt-[79px]'
+                    className='flex justify-center xs:pt-12 md:pt-[79px]'
                     variants={slideInFromLeft(0.7)}
                     initial='hidden'
                     whileInView='visible'

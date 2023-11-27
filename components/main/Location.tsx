@@ -9,8 +9,8 @@ const Location = () => {
     return (
         <motion.div className='bg-[#FDBE9442]'>
             <div className='container m-auto py-11 text-[#705448]'>
-                <div className='flex gap-x-[174px]'>
-                    <div className='flex flex-col'>
+                <div className='flex lg:flex-row xs:flex-col gap-x-[174px] lg:items-normal xs:items-center'>
+                    <div className='flex flex-col  lg:items-normal xs:items-center'>
                         <motion.div
                             variants={slideInFromLeft(0.5)}
                             initial='hidden'
@@ -33,6 +33,7 @@ const Location = () => {
                         initial='hidden'
                         whileInView='visible'
                         viewport={{ amount: 0.3 }}
+                        href='#'
                         className='bg-[#705448] py-1 px-6 rounded-[10px] text-white font-medium text-lg uppercase cursor-pointer active:bg-gradient-to-l active:from-[#402F28] active:to-[#563F35]  transition-all duration-500'
                     >
                         Send us

@@ -9,20 +9,20 @@ const About = () => {
         initial='hidden'
         whileInView='visible'
         viewport={{ amount: 0.3 }}
-        className='flex flex-col gap-y-7 pt-12'>
-            <div className='flex gap-x-5'>
-                <img src="/icons/marker.svg" alt="marker" />
-                <div className='flex flex-col items-start'>
+        className='flex sm:flex-row sm:max-w-[400px] lg:justify-normal xs:justify-start sm:justify-center xs:items-start sm:items-center  lg:items-baseline flex-wrap  gap-x-[10px] pb-10 lg:pb-0 lg:flex-col gap-y-7 pt-12'>
+            <div className='flex sm:flex-col lg:flex-row sm:gap-y-5 gap-x-5'>
+                <img className='max-w-[35px] max-h-[33px]' src="/icons/marker.svg" alt="marker" />
+                <div className='flex flex-col sm:item-stretch lg:items-start'>
                     <p>
                         Location:
                     </p>
-                    <span>
+                    <span className='sm:max-w-[170px] lg:max-w-[380px]'>
                         A108 Adam Street, New York, NY 535022
                     </span>
                 </div>
             </div>
-            <div className='flex gap-x-5  items-start'>
-                <img src="/icons/clock.svg" alt="clock" />
+            <div className='flex  sm:flex-col lg:flex-row sm:gap-y-5 gap-x-5  items-start'>
+                <img className='max-w-[35px] max-h-[33px]' src="/icons/clock.svg" alt="clock" />
                 <div className='flex flex-col items-start'>
                     <p>
                         Open Hours:
@@ -35,8 +35,8 @@ const About = () => {
                     </span>
                 </div>
             </div>
-            <div className='flex gap-x-5 items-start'>
-                <img src="/icons/email.svg" alt="email" />
+            <div className='flex sm:flex-col lg:flex-row sm:gap-y-5 gap-x-5 items-start'>
+                <img className='max-w-[35px] max-h-[33px]' src="/icons/email.svg" alt="email" />
                 <div className='flex flex-col'>
                     <p>
                         Email:
@@ -46,8 +46,8 @@ const About = () => {
                     </span>
                 </div>
             </div>
-            <div className='flex gap-x-5 items-start'>
-                <img src="/icons/call.svg" alt="call" />
+            <div className='flex sm:flex-col lg:flex-row sm:gap-y-5 gap-x-5 items-start'>
+                <img className='max-w-[35px] max-h-[33px]' src="/icons/call.svg" alt="call" />
                 <div className='flex flex-col'>
                     <p>
                         Call:
