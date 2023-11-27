@@ -27,7 +27,7 @@ const Navber = () => {
 
                 <div className="relative z-20 md:hidden block">
                     <input type="checkbox" name="burger" id="burger" className="peer" hidden />
-                    <label for="burger"
+                    <label htmlFor="burger"
                         className="sx:-ml-6 flex  flex-col gap-2 xs-[376px]:w-0 xs-[376px]:-ml-[10px] peer-checked:burger block relative z-20 p-6 cursor-pointer -ml-8 lg:hidden">
                         <div aria-hidden="true" className="menu_btn">
                         </div>
