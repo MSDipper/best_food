@@ -22,4 +22,4 @@ const ReservationForm = () => {
     )
 }
 
-export default ReservationForm
+export default  ReservationForm

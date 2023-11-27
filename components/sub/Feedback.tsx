@@ -10,7 +10,7 @@ const Feedback = () => {
             whileInView='visible'
             viewport={{ amount: 0.3 }}
         >
-            <img className='w-[673px] h-[187px]'  src="/location/map.webp" alt="map" />
+            <img className='w-[673px] h-[187px]'  src="/location/map.webp" alt="map" loading="lazy"/>
             <form action="#" className='pt-9 grid grid-cols-2 gap-y-6 gap-x-9'>
                 <input className='max-w-[307px] h-12 text-[15px] placeholder:text-[#705448]  outline-none border border-[#0000004D] bottom-2 bg-transparent text-[#705448] px-6' type="text" placeholder='NAME' />
                 <input className='max-w-[307px] h-12 text-[15px] placeholder:text-[#705448]  outline-none border border-[#0000004D] bottom-2 bg-transparent text-[#705448] px-6' type="text" placeholder='EMAIL' />
