@@ -27,7 +27,7 @@ const Menu = () => {
                     >
                         <div className='flex xs:items-center justify-center md:justify-normal sm:items-normal xs:flex-col sm:flex-row gap-x-5'>
                             <div className='pt-10'>
-                                <img src="/menu/1.png w-[121px] h-[142px]" alt="menu-img" />
+                                <img className='w-[121px] h-[142px]' src="/menu/1.webp" alt="menu-img" />
                             </div>
                             <div className='max-w-[600px] pt-4'>
                                 <h3 className='relative max-w-[325px] xs:m-auto sm:m-0 flex justify-between reem text-xl leading-9 pb-3 uppercase'>
@@ -43,7 +43,7 @@ const Menu = () => {
                         </div>
                         <div className='flex xs:items-center justify-center md:justify-normal sm:items-normal xs:flex-col sm:flex-row gap-x-5'>
                             <div>
-                                <img className='pt-10 w-[121px] h-[142px]' src="/menu/2.png" alt="menu-img" />
+                                <img className='pt-10 w-[121px] h-[142px]' src="/menu/2.webp" alt="menu-img" />
                             </div>
                             <div className='max-w-[600px] pt-4'>
                                 <h3 className='relative max-w-[325px] xs:m-auto sm:m-0 flex justify-between gap-x-1 reem text-xl leading-9 pb-3 uppercase'>
@@ -63,7 +63,7 @@ const Menu = () => {
                     >
                         <div className='flex xs:items-center justify-center md:justify-normal sm:items-normal xs:flex-col sm:flex-row gap-x-5'>
                             <div>
-                                <img className='pt-10 w-[121px] h-[142px]' src="/menu/3.png" alt="menu-img" />
+                                <img className='pt-10 w-[121px] h-[142px]' src="/menu/3.webp" alt="menu-img" />
                             </div>
                             <div className='max-w-[600px] pt-4'>
                                 <h3 className='relative max-w-[325px] xs:m-auto sm:m-0 flex justify-between reem text-xl leading-9 pb-3 uppercase'>
@@ -79,7 +79,7 @@ const Menu = () => {
                         </div>
                         <div className='flex xs:items-center justify-center md:justify-normal sm:items-normal xs:flex-col sm:flex-row gap-x-5'>
                             <div>
-                                <img className='pt-10 w-[121px] h-[142px]' src="/menu/4.png" alt="menu-img" />
+                                <img className='pt-10 w-[121px] h-[142px]' src="/menu/4.webp" alt="menu-img" />
                             </div>
                             <div className='max-w-[600px] pt-4'>
                                 <h3 className='relative max-w-[325px] xs:m-auto sm:m-0 flex justify-between reem text-xl leading-9 pb-3 uppercase'>

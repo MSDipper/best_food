@@ -26,9 +26,9 @@ const config: Config = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-        'cat1': "url(/categories/cat1.jpg)",
-        'cat2': "url(/categories/cat2.jpg)",
-        'cat3': "url(/categories/cat3.jpg)",
+        'cat1': "url(/categories/cat1.webp)",
+        'cat2': "url(/categories/cat2.webp)",
+        'cat3': "url(/categories/cat3.webp)",
       },
       colors: {
         light: '#EFE9E9',

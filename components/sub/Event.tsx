@@ -38,21 +38,21 @@ const Event = () => {
                         <motion.div
                             variants={slideInFromRight(0.7)}
                             className='flex flex-wrap gap-y-6'>
-                            <img className='w-[118px] h-[100px]' src="/event/1.png" alt="events-img" />
-                            <img className='w-[118px] h-[100px]' src="/event/2.png" alt="events-img" />
+                            <img className='w-[118px] h-[100px]' src="/event/1.webp" alt="events-img" />
+                            <img className='w-[118px] h-[100px]' src="/event/2.webp" alt="events-img" />
                         </motion.div>
                         <motion.div
                             variants={slideInFromRight(0.8)}
                             className='flex flex-wrap gap-y-6'>
 
-                            <img className='w-[118px] h-[100px]' src="/event/3.png" alt="events-img" />
-                            <img className='w-[118px] h-[100px]' src="/event/4.png" alt="events-img" />
+                            <img className='w-[118px] h-[100px]' src="/event/3.webp" alt="events-img" />
+                            <img className='w-[118px] h-[100px]' src="/event/4.webp" alt="events-img" />
                         </motion.div>
                         <motion.div
                             variants={slideInFromRight(0.9)}
                             className='flex flex-wrap gap-y-6'>
-                            <img className='w-[118px] h-[100px]' src="/event/5.png" alt="events-img" />
-                            <img className='w-[118px] h-[100px]' src="/event/6.png" alt="events-img" />
+                            <img className='w-[118px] h-[100px]' src="/event/5.webp" alt="events-img" />
+                            <img className='w-[118px] h-[100px]' src="/event/6.webp" alt="events-img" />
                         </motion.div>
                     </div>
                 </div>
