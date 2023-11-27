@@ -1,6 +1,5 @@
 'use client';
 import React from 'react';
-import memoize from "lodash.memoize";
 import { motion } from 'framer-motion';
 import { slideInFromTop } from '@/utils/motion';
 
@@ -118,4 +117,4 @@ const Navbar = () => {
     )
 }
 
-export default memoize(Navbar)
+export default Navbar;
