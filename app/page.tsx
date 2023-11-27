@@ -1,18 +1,30 @@
+import React, { lazy, Suspense } from 'react';
 import '@fontsource-variable/sansita-swashed';
-import Hero from '@/components/main/Hero';
-import Restaurant from '@/components/main/Restaurant';
-import Reservation from '@/components/main/Reservation';
-import Location from '@/components/main/Location';
+
+const Hero = React.lazy(() => import('@/components/main/Hero'));
+const Restaurant = React.lazy(() => import('@/components/main/Restaurant'));
+const Reservation = React.lazy(() => import('@/components/main/Reservation'));
+const Location = React.lazy(() => import('@/components/main/Location'));
+
 
 export default function Home() {
   return (
     <main>
       <div>
-        <Hero />
-        <Restaurant />
-        <Reservation />
-        <Location />
+        <Suspense fallback={<p>Loading..</p>}>
+          <Hero />
+        </Suspense>
+        <Suspense fallback={<p>Loading..</p>}>
+          <Restaurant />
+        </Suspense>
+        <Suspense fallback={<p>Loading..</p>}>
+          <Reservation />
+        </Suspense>
+        <Suspense fallback={<p>Loading..</p>}>
+          <Location />
+        </Suspense>
       </div>
     </main>
   )
 }
+

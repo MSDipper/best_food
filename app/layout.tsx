@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
-import Navbar from '@/components/main/Navbar'
-
+import React, { lazy, Suspense } from 'react';
 const inter = Inter({ subsets: ['latin'] })
+const Navbar = React.lazy(() => import('@/components/main/Navbar'));
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -18,8 +18,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Navbar />
-      {children}</body>
+        <Suspense fallback={<p>Loading...</p>}>
+          <Navbar />
+        </Suspense>
+        {children}</body>
     </html>
   )
 }
